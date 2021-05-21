@@ -1,0 +1,60 @@
+:root {
+
+}
+
+body {
+  margin: 0;
+}
+
+.parte-izq {
+  background-color: dodgerblue;
+  width: 30vw;
+  padding-top: 100px;
+}
+
+#ruben {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  margin: auto auto;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+}
+
+.linea {
+  background-color: white;
+  width: 15vw;
+  height: 4px;
+  margin: auto auto;
+}
+
+#titulo-contacto {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  text-align: center;
+  color: white;
+}
+
+.parte-izq > h3 {
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+}
