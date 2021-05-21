@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+#page {
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+}
+
 .parte-izq {
   background-color: dodgerblue;
   width: 30vw;
@@ -28,7 +33,7 @@ h1 {
   color: white;
 }
 
-h2 {
+.parte-izq > h2 {
   font-family: 'Zilla Slab', serif;
   font-weight: 300;
   font-size: 1.8em;
@@ -58,3 +63,25 @@ h2 {
   text-align: center;
   color: white;
 }
+
+.parte-izq > h3 > a {
+  text-decoration: underline;
+  color: white;
+}
+
+.parte-der {
+  margin: 50px 100px 50px 100px;
+  font-family: 'Rubik', sans-serif ;
+}
+
+.parte-der > h2 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.parte-der > p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+
